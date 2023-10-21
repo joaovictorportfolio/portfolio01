@@ -126,9 +126,9 @@ class sectionsobremim extends HTMLElement {
 
                 <div class="swiper-slide group/card  h-full max-lg:flex-col max-lg:flex">
 
-                    <div class="group flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow hover:-translate-y-2 hover:bg-primary-600/70 ">
+                    <div class="group flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow group-hover/card:-translate-y-2 group-hover/card:bg-primary-600/70 ">
 
-                        <span class="text-xl font-semibold text-gray-700 group-hover:text-white"> 1 </span>
+                        <span class="text-xl font-semibold text-gray-700 group-hover/card:text-white"> 1 </span>
 
                     </div>
 
@@ -140,9 +140,9 @@ class sectionsobremim extends HTMLElement {
 
                 <div class="swiper-slide group/card">
 
-                    <div class="group flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow hover:-translate-y-2 hover:bg-primary-600/70 ">
+                    <div class="group flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow group-hover/card:-translate-y-2 group-hover/card:bg-primary-600/70 ">
 
-                        <span class="text-xl font-semibold text-gray-700 group-hover:text-white"> 2 </span>
+                        <span class="text-xl font-semibold text-gray-700 group-hover/card:text-white"> 2 </span>
 
                     </div>
 
@@ -153,9 +153,9 @@ class sectionsobremim extends HTMLElement {
 
                 <div class="swiper-slide group/card">
 
-                    <div class="group flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow hover:-translate-y-2 hover:bg-primary-600/70 ">
+                    <div class="group flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow group-hover/card:-translate-y-2 group-hover/card:bg-primary-600/70 ">
 
-                        <span class="text-xl font-semibold text-gray-700 group-hover:text-white"> 3 </span>
+                        <span class="text-xl font-semibold text-gray-700 group-hover/card:text-white"> 3 </span>
 
                     </div>
 
@@ -188,7 +188,7 @@ class sectionsobremim extends HTMLElement {
 
             autoplay:{
                 delay:2000,
-                disableOnInteraction:true,
+                disableOnInteraction:false,
                 waitForTransition:true,
             },
            
