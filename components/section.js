@@ -132,7 +132,7 @@ class sectionsobremim extends HTMLElement {
 
                     </div>
 
-                    <h3 class="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Entendimento do Negócio</h3>
+                    <p class="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Entendimento do Negócio</p>
 
                     <p class="absolute max-lg:relative  left-0 right-0 hidden max-lg:block group-hover/card:block animate__animated  animate__fadeIn mt-4 text-base text-gray-600 mx-auto max-w-xs"> Inicio projetos com análise minuciosa dos objetivos e necessidades do negócio. Isso inclui imersão na estratégia da empresa e definição de uma base sólida que guiará todas as decisões de design e desenvolvimento.</p>
 
@@ -146,7 +146,7 @@ class sectionsobremim extends HTMLElement {
 
                     </div>
 
-                    <h3 class="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Experiência do Usuário</h3>
+                    <p class="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Experiência do Usuário</p>
 
                     <p class="absolute max-lg:relative left-0 right-0 hidden max-lg:block group-hover/card:block animate__animated  animate__fadeIn mt-4 text-base text-gray-600 mx-auto max-w-xs">Nesta etapa, foco em criar interfaces excepcionais usando design centrado no usuário, pesquisa e prototipagem para soluções intuitivas. Meu objetivo é garantir alta usabilidade e atender às necessidades do público-alvo.</p>
                 </div>
@@ -159,7 +159,7 @@ class sectionsobremim extends HTMLElement {
 
                     </div>
 
-                    <h3 class="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Desenvolvimento</h3>
+                    <p class="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Desenvolvimento</p>
 
                     <p class="absolute max-lg:relative left-0 right-0 hidden max-lg:block group-hover/card:block animate__animated  animate__fadeIn mt-4 text-base text-gray-600 mx-auto max-w-xs">Traduzo UX em código com precisão, alto desempenho e inovação, mantendo compromisso com excelência técnica. Resultam soluções digitais funcionais, usáveis e esteticamente cativantes.</p>
 
