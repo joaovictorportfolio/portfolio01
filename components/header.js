@@ -50,7 +50,7 @@ class header01 extends HTMLElement {
 
                   <a href="#sectionsobremim" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-primary-600 focus:text-primary-600"> Sobre </a>
 
-                  <a href="#" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-primary-600 focus:text-primary-600"> Habilidades </a>
+                  <a href="#sectionmetodologia" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-primary-600 focus:text-primary-600"> Metodologia </a>
 
                   <a href="#" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-primary-600 focus:text-primary-600"> Trabalhos </a>
               </div>
@@ -67,7 +67,7 @@ class header01 extends HTMLElement {
 
               <a @click="open = !open" href="#sectionsobremim" title="" class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-primary-600"> Sobre </a>
 
-              <a @click="open = !open" href="#" title="" class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-primary-600"> Resources </a>
+              <a @click="open = !open" href="#sectionmetodologia" title="" class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-primary-600"> Metodologia </a>
 
               <a @click="open = !open" href="#" title="" class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-primary-600"> Pricing </a>
 
