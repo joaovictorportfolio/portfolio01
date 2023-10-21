@@ -16,7 +16,7 @@ export function controlarObservadorSection() {
   const observerOptions = {
     root: null,
     rootMargin: '0px',
-    threshold: 0.2
+    threshold: 0.4
   };
 
   const observer = new IntersectionObserver(entries => {
@@ -26,6 +26,7 @@ export function controlarObservadorSection() {
         const href = link.getAttribute('href');
         if (href === `#${targetId}`) {
           if (entry.isIntersecting) {
+
             link.classList.add('rounded', 'bg-primary-700', 'text-white', 'dark:text-white', 'lg:bg-transparent', 'lg:text-primary-700');
           } else {
             link.classList.remove('rounded', 'bg-primary-700', 'text-white', 'dark:text-white', 'lg:bg-transparent', 'lg:text-primary-700');

@@ -5,7 +5,9 @@
 
 // =================================== COMPONENTES =============================================== //
 
-//import * as componenteHeader from './components/header.js'
+import * as componenteHeader from './components/header.js'
+import * as componenteHero from './components/hero.js'
+import * as componenteSection from './components/section.js'
 
 
 
