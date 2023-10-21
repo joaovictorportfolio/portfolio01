@@ -60,7 +60,11 @@ class sectionsobremim extends HTMLElement {
             </span>
     
 
-            <div>
+            <div
+            
+            
+            
+            >
 
                 <p class="text-lg font-semibold text-gray-900">Um pouco sobre mim</p>
 
@@ -112,7 +116,7 @@ class sectionsobremim extends HTMLElement {
       
         <div class="max-w-2xl mx-auto text-center">
             <h2 class="text-2xl font-bold leading-tight text-black sm:text-3xl lg:text-4xl">Como trabalho?</h2>
-            <p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">Meu Processo <font class="font-semibold text-primary-600">Criativo</font> e Orientado para <font class="font-semibold text-primary-600">Resultados</font></p>
+            <p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">Meu processo <font class="font-semibold text-primary-600">criativo</font> e orientado para <font class="font-semibold text-primary-600">resultados</font></p>
         </div>
 
 
@@ -148,7 +152,7 @@ class sectionsobremim extends HTMLElement {
 
                     <p class="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Experiência do Usuário</p>
 
-                    <p class="absolute max-lg:relative left-0 right-0 hidden max-lg:block group-hover/card:block animate__animated  animate__fadeIn mt-4 text-base text-gray-600 mx-auto max-w-xs">Nesta etapa, foco em criar interfaces excepcionais usando design centrado no usuário, pesquisa e prototipagem para soluções intuitivas. Meu objetivo é garantir alta usabilidade e atender às necessidades do público-alvo.</p>
+                    <p class="absolute max-lg:relative left-0 right-0 hidden max-lg:block group-hover/card:block animate__animated  animate__fadeIn mt-4 text-base text-gray-600 mx-auto max-w-xs">Nesta etapa, foco em criar interfaces excepcionais usando design centrado no usuário, pesquisa e prototipagem para soluções intuitivas. Meu objetivo é garantir alta usabilidade e atender às necessidades dos usuários.</p>
                 </div>
 
                 <div class="swiper-slide group/card">
@@ -161,7 +165,7 @@ class sectionsobremim extends HTMLElement {
 
                     <p class="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Desenvolvimento</p>
 
-                    <p class="absolute max-lg:relative left-0 right-0 hidden max-lg:block group-hover/card:block animate__animated  animate__fadeIn mt-4 text-base text-gray-600 mx-auto max-w-xs">Traduzo UX em código com precisão, alto desempenho e inovação, mantendo compromisso com excelência técnica. Resultam soluções digitais funcionais, usáveis e esteticamente cativantes.</p>
+                    <p class="absolute max-lg:relative left-0 right-0 hidden max-lg:block group-hover/card:block animate__animated  animate__fadeIn mt-4 text-base text-gray-600 mx-auto max-w-xs">Traduzo o design em código com precisão, alto desempenho e inovação, mantendo compromisso com excelência técnica. Resultando em soluções digitais funcionais, usáveis e esteticamente cativantes.</p>
 
                 </div>
 
@@ -170,6 +174,7 @@ class sectionsobremim extends HTMLElement {
         </div>
 
     </div>
+
 
 </section>
     
@@ -224,6 +229,11 @@ class sectionsobremim extends HTMLElement {
   }}
   
   customElements.define("section-comotrabalho", sectioncomotrabalho);
+
+
+
+
+
 
 
 

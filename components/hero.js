@@ -47,7 +47,7 @@ class hero01 extends HTMLElement {
 
           </div>
 
-          <span class="relative lg:translate-x-16 max-lg:mt-10"
+          <span class="relative lg:translate-x-16 max-lg:mt-10 "
           
           data-aos="fade-left"
           data-aos-delay="2000"
@@ -57,9 +57,30 @@ class hero01 extends HTMLElement {
           data-aos-once="true"
           
           >
+
+            <span class="absolute left-5 max-lg:left-0 top-48 z-10">
+                <img class="object-contain w-auto mx-auto h-24 floating" src="https://i.ibb.co/hWdVM1H/image.png" alt="" />
+            </span>
+            <span class="absolute left-10 top-5 z-10">
+                <img class="object-contain w-auto mx-auto h-16 max-lg:h-12 floating" src="https://i.ibb.co/QPB6LcH/image.png" alt="" />
+            </span>
+            <span class="absolute right-20 top-5 z-10">
+                <img class="object-contain w-auto mx-auto h-16 max-lg:h-12 floating" src="https://i.ibb.co/rcHwjRf/image.png" alt="" />
+            </span>
+            <span class="absolute right-14 top-40 z-10">
+                <img class="object-contain w-auto mx-auto h-16 max-lg:h-12 floating" src="https://i.ibb.co/VqzsDwx/image.png" alt="" />
+            </span>
+            <span class="absolute right-10 top-64 z-10">
+                <img class="object-contain w-auto mx-auto h-16 max-lg:h-12 floating" src="https://i.ibb.co/7r9L4Z9/image.png" alt="" />
+            </span>
+
               <img class="absolute inset-x-0 bottom-0 -mb-48 -translate-x-1/2 left-1/2" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg" alt="" />
 
               <img class="relative w-[90%] xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110" src="https://i.ibb.co/RPGW4Qj/image.png" alt="" />
+
+
+
+
           </span>
 
       </div>
