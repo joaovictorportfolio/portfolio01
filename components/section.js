@@ -66,9 +66,9 @@ class sectionsobremim extends HTMLElement {
             
             >
 
-                <p class="text-lg font-semibold text-gray-900">Um pouco sobre mim</p>
+                <p class="text-xl font-semibold text-gray-900">Um pouco sobre mim</p>
 
-                <p class="mt-4 text-lg max-lg:text-base text-gray-700"><font class="font-semibold text-primary-600">Minha jornada</font> é sobre <font class="font-semibold text-primary-600">transformar visões em realidade</font>. Cada linha de código que escrevo é uma expressão da minha <font class="font-semibold text-primary-600">paixão</font> por criar <font class="font-semibold text-primary-600">experiências digitais únicas</font>. Através de uma combinação de <font class="font-semibold text-primary-600">habilidades técnicas</font> e <font class="font-semibold text-primary-600">criatividade</font>, transformo <font class="font-semibold text-primary-600">conceitos de design</font> em <font class="font-semibold text-primary-600">interfaces interativas</font> e <font class="font-semibold text-primary-600">funcionais</font>. Meu compromisso é garantir que o código não seja apenas eficaz, mas também elegante e otimizado para <font class="font-semibold text-primary-600">proporcionar</font> a <font class="font-semibold text-primary-600">melhor experiência ao usuário.</font></p>
+                <p class="mt-4 text-lg max-lg:text-base text-gray-700"><font class="font-semibold text-primary-600">Minha jornada</font> é sobre <font class="font-semibold text-primary-600">transformar visões em realidade</font>. Cada linha de código que escrevo é uma expressão da minha <font class="font-semibold text-primary-600">paixão</font> por criar <font class="font-semibold text-primary-600">experiências digitais únicas</font>. Através de uma combinação de <font class="font-semibold text-primary-600">habilidades técnicas</font> e <font class="font-semibold text-primary-600">criatividade</font>, transformo <font class="font-semibold text-primary-600">conceitos de design</font> em <font class="font-semibold text-primary-600">interfaces interativas</font> e <font class="font-semibold text-primary-600">funcionais</font>.<br><br> Meu compromisso é garantir que o código não seja apenas eficaz, mas também elegante e otimizado para <font class="font-semibold text-primary-600">proporcionar</font> a <font class="font-semibold text-primary-600">melhor experiência ao usuário.</font></p>
                 
 
 
@@ -120,7 +120,7 @@ class sectionsobremim extends HTMLElement {
         </div>
 
 
-        <div class="relative mt-12 lg:mt-20 swiper max-w-7xl overflow-y-visible max-lg:translate-y-10  h-full">
+        <div class="relative mt-12 lg:mt-20 swiper swiper1 max-w-7xl overflow-y-visible max-lg:translate-y-10  h-full">
 
             <div class="absolute inset-x-0 hidden xl:px-44 top-2 md:block md:px-20 lg:px-28">
                 <img class="w-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/2/curved-dotted-line.svg" alt="" />
@@ -186,7 +186,7 @@ class sectionsobremim extends HTMLElement {
   
         `;
 
-        var swiper = new Swiper(".swiper", {
+        var swiper = new Swiper(".swiper1", {
             slidesPerView: 1.2,
             spaceBetween: 30,
             speed:1000,
@@ -229,6 +229,186 @@ class sectionsobremim extends HTMLElement {
   }}
   
   customElements.define("section-comotrabalho", sectioncomotrabalho);
+
+
+class sectiontrabalhos extends HTMLElement {
+    constructor() {
+      super();
+
+  
+      this.innerHTML = `
+
+    
+  <!-- Codigo -->
+  
+ 
+  <section id="sectiontrabalhos" class="py-10 bg-white sm:py-16 lg:py-24 flex h-screen flex items-center justify-center overflow-hidden">
+
+    <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl flex flex-col gap-10  lg:translate-y-20">
+
+        <div class="max-w-2xl mx-auto text-center ">
+
+            <h2 class="text-2xl font-bold leading-tight text-black sm:text-3xl lg:text-4xl">Meus trabalhos</h2>
+
+            <p class="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">Aqui você pode dar uma olhada em alguns dos <font class="font-semibold text-primary-600">projetos em que trabalhei.</font></p>
+
+            
+
+        </div>
+
+        <div class="swiper swiper2 w-full max-lg:max-w-xs lg:scale-[0.85]">
+
+        <div class="swiper-wrapper">
+
+        <card-trabalho 
+
+        imagem = "https://i.ibb.co/CVxvR8Z/Group-431.png"
+        categoria="Front End"
+        titulo = "E-commerce de alimentos orgânicos"
+        texto = "Este projeto envolve a criação de um ecommerce de produtos orgânicos, podendo realizar pagamento via pix"
+
+        item03 = "https://github.com/jvdesigner/ecommerce"
+
+        link = "https://jvdesigner.github.io/ecommerce/index.html"
+
+
+    class="swiper-slide"
+    ></card-trabalho>
+
+    <card-trabalho 
+
+        imagem = "https://i.ibb.co/Fbv5hHY/Group-432-1.png"
+        categoria="Front End"
+        titulo = "Sistema de gerenciamento de estoque"
+        texto = "Este projeto envolve a criação de um sistema de controle de estoque geral, onde é possível analisar o desempenho do seu estoque."
+
+        item03 = "https://github.com/jvdesigner/controle-de-estoque-02"
+
+        link = "https://jvdesigner.github.io/controle-de-estoque-02/"
+
+
+    class="swiper-slide"
+    ></card-trabalho>
+
+        <card-trabalho 
+
+            imagem = "https://i.ibb.co/9TSngc8/solnascente.png"
+            categoria="UX/UI Design"
+            titulo = "Site de venda de alimentos orgânicos"
+            texto = "Este projeto envolve a criação de um site para uma empresa de agropecuária que cultiva e vende produtos orgânicos."
+
+            item01 = "https://www.figma.com/file/EryVDBzW3BKqbYKaZN8AQY/Sol-Nascente?type=design&node-id=2%3A184&mode=design&t=OLi1W5gPgoDOs9D1-1"
+
+            item02 = "https://www.figma.com/proto/EryVDBzW3BKqbYKaZN8AQY/Sol-Nascente?type=design&node-id=198-4390&t=nm00r7jqsMqwR6tY-1&scaling=scale-down&page-id=198%3A31&starting-point-node-id=198%3A4390&mode=design"
+
+            link = "https://www.behance.net/gallery/177787457/Site-de-venda-de-produtos-organicos"
+
+
+        class="swiper-slide"
+        ></card-trabalho>
+
+        <card-trabalho 
+
+            imagem = "https://i.ibb.co/89dc50n/pelada.png"
+            categoria="UX/UI Design"
+            titulo = "Aplicativo de partidas de futebol"
+            texto = "Este projeto envolve a criação de um aplicativo que permite gerenciar e ver estatísticas de partidas de futebol"
+
+            item01 = "https://www.figma.com/file/lGjcQJ3zfYYsrMpklu643N/Aplicativo-de-gerenciamento-de-jogos?type=design&node-id=0%3A1&mode=design&t=w2DpnogiySh25eJK-1"
+
+            item02 = "https://www.figma.com/proto/lGjcQJ3zfYYsrMpklu643N/Aplicativo-de-gerenciamento-de-jogos?type=design&node-id=152-69&t=yKKxOOq2WhPWDgFO-1&scaling=scale-down&page-id=123%3A11&starting-point-node-id=141%3A3&mode=design"
+
+            link = "https://www.behance.net/gallery/170533765/Aplicativo-de-gerenciamento-de-jogos"
+
+
+        class="swiper-slide"
+        ></card-trabalho>
+
+        <card-trabalho 
+
+            imagem = "https://i.ibb.co/b6f1khR/Frame-132.png"
+            categoria="UX/UI Design"
+            titulo = "Aplicativo de controle de produção"
+            texto = "Este projeto envolve a criação de um aplicativo para melhorar a qualidade dos processos produtivos em uma indústria farmacêutica."
+
+            item01 = "https://www.figma.com/file/NsKMKyazaRBMzBmyy2x0cZ/Metodologia-5S?type=design&node-id=481%3A1111&mode=design&t=TAY9wbv3aXHiX4zd-1"
+
+            item02 = "https://www.figma.com/proto/NsKMKyazaRBMzBmyy2x0cZ/Metodologia-5S?type=design&node-id=470-2980&t=Bycz0R8Bgc9hRgwW-1&scaling=contain&page-id=444%3A7861&starting-point-node-id=444%3A9935&mode=design"
+
+            link = "https://www.behance.net/gallery/169938077/Lean-5s"
+
+
+        class="swiper-slide"
+        ></card-trabalho>
+
+
+
+        
+
+           
+
+        </div>
+
+        </div>
+
+    </div>
+    
+</section>
+    
+  
+            
+            
+  <!-- Codigo -->
+          
+  
+        `;
+
+        var swiper = new Swiper(".swiper2", {
+            slidesPerView: 1.2,
+            spaceBetween: 30,
+            speed:700,
+
+            autoplay:{
+                delay:2000,
+                disableOnInteraction:true,
+                waitForTransition:true,
+            },
+           
+
+            breakpoints: {
+
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                  },
+
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+              },
+              1024: {
+                slidesPerView: 3.2,
+                spaceBetween: 30,
+              },
+
+            },
+
+            
+            
+            
+          });
+
+
+  }}
+  
+  customElements.define("section-trabalhos", sectiontrabalhos);
+
+
+
 
 
 

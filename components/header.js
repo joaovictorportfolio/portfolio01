@@ -52,7 +52,9 @@ class header01 extends HTMLElement {
 
                   <a href="#sectionmetodologia" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-primary-600 focus:text-primary-600"> Metodologia </a>
 
-                  <a href="#" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-primary-600 focus:text-primary-600"> Trabalhos </a>
+                  <a href="#sectiontrabalhos" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-primary-600 focus:text-primary-600"> Trabalhos </a>
+
+                  <a href="#sectioncontato" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-primary-600 focus:text-primary-600"> Contato </a>
               </div>
 
               <div class="hidden lg:items-center lg:space-x-10 ">
@@ -61,7 +63,7 @@ class header01 extends HTMLElement {
               </div>
           </nav>
           <!-- xs to lg -->
-          <nav :class="{ 'flex': open, 'hidden': !open }" class="flex-col py-4 space-y-2">
+          <nav :class="{ 'flex': open, 'hidden': !open }" x-transition class="flex-col py-4 space-y-2">
 
               <a @click="open = !open" href="#sectionInicio" title="" class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-primary-600"> Início </a>
 
@@ -69,7 +71,9 @@ class header01 extends HTMLElement {
 
               <a @click="open = !open" href="#sectionmetodologia" title="" class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-primary-600"> Metodologia </a>
 
-              <a @click="open = !open" href="#" title="" class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-primary-600"> Pricing </a>
+              <a @click="open = !open" href="#sectiontrabalhos" title="" class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-primary-600"> Trabalhos </a>
+
+              <a  @click="open = !open" href="#sectioncontato" title="" class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-primary-600"> Contato </a>
 
           </nav>
       </div>

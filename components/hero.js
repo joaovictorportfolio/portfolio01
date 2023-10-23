@@ -30,9 +30,11 @@ class hero01 extends HTMLElement {
           
           >
 
-              <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Olá 👋<br> Eu sou o João</h2>
+              <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Olá 👋</h2>
 
-              <p class="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">Como um profissional de <font class="font-semibold text-primary-600">UX/UI Design</font> e <font class="font-semibold text-primary-600">Desenvolvimento front-end</font>, foco em tornar a web <font class="font-semibold text-primary-600">mais bonita</font> e <font class="font-semibold text-primary-600">fácil de usar</font>.<br><br> Vamos criar algo <font class="font-semibold text-primary-600">incrível juntos!🚀👊</font></p>
+              <p class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Eu sou o João</p>
+
+              <p class="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">Como um profissional de <font class="font-semibold text-primary-600">UX/UI Design</font> e <font class="font-semibold text-primary-600">Desenvolvimento front-end</font>, <font class="font-semibold text-primary-600">foco</font> em melhorar a <font class="font-semibold text-primary-600">experiência do usuário</font> e <font class="font-semibold text-primary-600">criar soluções digitais inovadoras.</font><br><br> Vamos criar algo <font class="font-semibold text-primary-600">incrível juntos!🚀👊</font></p>
 
               <p  class="mt-4 text-xl text-primary-600 md:mt-8 font-bold hover:opacity-[0.8]">
 
@@ -59,18 +61,18 @@ class hero01 extends HTMLElement {
           >
 
             <span class="absolute left-5 max-lg:left-0 top-48 z-10">
-                <img class="object-contain w-auto mx-auto h-24 floating" src="https://i.ibb.co/hWdVM1H/image.png" alt="" />
+                <img class=" object-contain w-auto mx-auto h-24 floating" src="https://i.ibb.co/hWdVM1H/image.png" alt="" />
             </span>
-            <span class="absolute left-10 top-5 z-10">
+            <span class="hidden absolute left-10 top-5 z-10">
                 <img class="object-contain w-auto mx-auto h-16 max-lg:h-12 floating" src="https://i.ibb.co/QPB6LcH/image.png" alt="" />
             </span>
-            <span class="absolute right-20 top-5 z-10">
+            <span class="hidden absolute right-10 top-64 z-10">
                 <img class="object-contain w-auto mx-auto h-16 max-lg:h-12 floating" src="https://i.ibb.co/rcHwjRf/image.png" alt="" />
             </span>
             <span class="absolute right-14 top-40 z-10">
                 <img class="object-contain w-auto mx-auto h-16 max-lg:h-12 floating" src="https://i.ibb.co/VqzsDwx/image.png" alt="" />
             </span>
-            <span class="absolute right-10 top-64 z-10">
+            <span class=" absolute right-20 top-5 z-10">
                 <img class="object-contain w-auto mx-auto h-16 max-lg:h-12 floating" src="https://i.ibb.co/7r9L4Z9/image.png" alt="" />
             </span>
 
