@@ -54,7 +54,7 @@ class cardtrabalho extends HTMLElement {
           </div>
 
 
-          <div class="mt-2 translate-y-14 group-hover:translate-y-0 text-gray-300 dark:text-gray-600">
+          <div class="mt-2 translate-y-20 group-hover:translate-y-0 text-gray-300 dark:text-gray-600">
           
           <p class="lg:text-sm">${texto}</p>
 

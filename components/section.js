@@ -189,7 +189,7 @@ class sectionsobremim extends HTMLElement {
 
             autoplay:{
                 delay:2000,
-                disableOnInteraction:false,
+                disableOnInteraction:true,
                 waitForTransition:true,
             },
            
@@ -252,7 +252,7 @@ class sectiontrabalhos extends HTMLElement {
 
         </div>
 
-        <div class="swiper swiper2 w-full max-lg:max-w-xs lg:scale-[0.85]">
+        <div class="swiper swiper2 w-full max-lg:max-w-xs lg:scale-[0.85] max-lg:overflow-x-visible">
 
         <div class="swiper-wrapper">
 
@@ -432,7 +432,7 @@ class sectiontrabalhos extends HTMLElement {
 
         </div>
 
-        <div class="swiper swiper3 w-full max-lg:max-w-xs lg:scale-[0.9] overflow-y-visible">
+        <div class="swiper swiper3 w-full max-lg:max-w-xs lg:scale-[0.9] overflow-y-visible max-lg:overflow-x-visible">
 
         <div class="swiper-wrapper">
 
