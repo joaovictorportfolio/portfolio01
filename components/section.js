@@ -18,15 +18,11 @@ class sectionsobremim extends HTMLElement {
   
  
   <section id="sectionsobremim" class="py-0  bg-white h-screen flex items-center justify-center"
-
-
   
   >
 
     <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8 h-full flex flex-col justify-end pb-10 "
-
-    
-    
+        
     >
 
         <div class="mx-auto text-left md:max-w-lg lg:max-w-2xl md:text-center "
@@ -55,7 +51,7 @@ class sectionsobremim extends HTMLElement {
 
             <span>
 
-                <img class=" w-[60%] rounded-md max-lg:w-1/2 mx-auto sm:max-w-xs" src="https://i.ibb.co/CthJqky/image.png" alt="" />
+                <img  class=" w-[60%] rounded-md max-lg:w-1/2 mx-auto sm:max-w-xs" src="https://i.ibb.co/CthJqky/image.png" alt="" />
 
             </span>
     
