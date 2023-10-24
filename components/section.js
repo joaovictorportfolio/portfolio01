@@ -368,6 +368,8 @@ class sectiontrabalhos extends HTMLElement {
             spaceBetween: 30,
             speed:700,
 
+            pauseOnMouseEnter:true,
+
             autoplay:{
                 delay:2000,
                 disableOnInteraction:true,
@@ -406,6 +408,166 @@ class sectiontrabalhos extends HTMLElement {
   }}
   
   customElements.define("section-trabalhos", sectiontrabalhos);
+
+
+
+  class sectionhabilidades extends HTMLElement {
+    constructor() {
+      super();
+
+  
+      this.innerHTML = `
+
+    
+  <!-- Codigo -->
+  
+ 
+  <section id="sectionhabilidades" class="py-10 bg-white sm:py-16 lg:py-24 flex h-screen flex items-center justify-center overflow-hidden">
+
+    <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl flex flex-col gap-10  lg:translate-y-20">
+
+        <div class="max-w-2xl mx-auto text-center ">
+
+            <h2 class="text-2xl font-bold leading-tight text-black sm:text-3xl lg:text-4xl">Minhas Habilidades</h2>
+
+            <p class="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600"><font class="font-semibold text-primary-600">Minhas habilidades</font> abrangem uma variedade de <font class="font-semibold text-primary-600">áreas</font>, incluindo <font class="font-semibold text-primary-600">desenvolvimento web</font>, <font class="font-semibold text-primary-600">web design</font> e <font class="font-semibold text-primary-600">ux/ui design.</font></font></p>
+
+            
+
+        </div>
+
+        <div class="swiper swiper3 w-full max-lg:max-w-xs lg:scale-[0.9] overflow-y-visible">
+
+        <div class="swiper-wrapper">
+
+            <card-habilidades 
+
+            imagem = "https://i.ibb.co/JBbMNJG/image.png"
+            titulo = "HTML, CSS, JavaScript"
+            texto  = "Domino as linguagens fundamentais da web para criar interfaces e experiências interativas. Minha experiência em HTML, CSS e JavaScript me permite desenvolver sites e aplicativos que funcionam perfeitamente em diferentes plataformas."
+            
+            class="swiper-slide">
+            </card-habilidades>
+
+            <card-habilidades 
+
+            imagem = "https://i.ibb.co/cc1HM2t/image.png"
+            titulo = "Framework CSS - Tailwind"
+            texto  = "Sou proficiente no uso do framework CSS Tailwind, que acelera o desenvolvimento front-end. Com o Tailwind, posso criar interfaces atraentes e altamente responsivas de maneira eficiente."
+            
+            class="swiper-slide">
+            </card-habilidades>
+
+            <card-habilidades 
+
+            imagem = "https://i.ibb.co/GCNf0Sr/image.png"
+            titulo = "Web Components"
+            texto  = "Tenho experiência na criação de Web Components personalizados, o que permite o desenvolvimento de elementos reutilizáveis e modulares para interfaces web, melhorando a escalabilidade e a manutenção de projetos."
+            
+            class="swiper-slide">
+            </card-habilidades>
+
+            <card-habilidades 
+
+            imagem = "https://i.ibb.co/G0QLjjF/image.png"
+            titulo = "Web Design"
+            texto  = "Minhas habilidades em web design envolvem a criação de interfaces visualmente atraentes e intuitivas. Foco na usabilidade e na harmonia visual para proporcionar experiências de usuário envolventes."
+            
+            class="swiper-slide">
+            </card-habilidades>
+
+            <card-habilidades 
+
+            imagem = "https://i.ibb.co/g969f21/image.png"
+            titulo = "Pesquisa com Usuários"
+            texto  = "Realizo pesquisas com usuários para entender suas necessidades e preferências. Isso me ajuda a criar designs que atendem às expectativas do público-alvo, melhorando a satisfação do usuário."
+            
+            class="swiper-slide">
+            </card-habilidades>
+
+            <card-habilidades 
+
+            imagem = "https://i.ibb.co/q1q7MDC/image.png"
+            titulo = "Prototipagem - Figma"
+            texto  = "Utilizo o Figma para criar protótipos interativos que ajudam na visualização e teste de conceitos de design. Isso agiliza o processo de design e colaboração com a equipe."
+            
+            class="swiper-slide">
+            </card-habilidades>
+
+            <card-habilidades 
+
+            imagem = "https://i.ibb.co/SJsKbQx/image.png"
+            titulo = "Teste de Usabilidade"
+            texto  = "Conduzo testes de usabilidade para avaliar a eficácia das interfaces que crio. Isso me permite identificar melhorias e garantir que os produtos atendam às necessidades dos usuários."
+            
+            class="swiper-slide">
+            </card-habilidades>
+            
+        </div>
+
+        </div>
+
+        
+    </div>
+    
+</section>
+    
+  
+            
+            
+  <!-- Codigo -->
+          
+  
+        `;
+
+        var swiper = new Swiper(".swiper3", {
+            slidesPerView: 1.2,
+            spaceBetween: 30,
+            speed:700,
+            grabCursor:true,
+
+            pauseOnMouseEnter:true,
+
+            
+
+            autoplay:{
+                delay:2000,
+                disableOnInteraction:true,
+                waitForTransition:true,
+            },
+           
+
+            breakpoints: {
+
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                  },
+
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+              },
+              1024: {
+                slidesPerView: 3.2,
+                spaceBetween: 30,
+              },
+
+            },
+
+            
+            
+            
+          });
+
+
+  }}
+  
+  customElements.define("section-habilidades", sectionhabilidades);
 
 
 

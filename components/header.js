@@ -52,6 +52,8 @@ class header01 extends HTMLElement {
 
                   <a href="#sectionmetodologia" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-primary-600 focus:text-primary-600"> Metodologia </a>
 
+                  <a href="#sectionhabilidades" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-primary-600 focus:text-primary-600"> Habilidades </a>
+
                   <a href="#sectiontrabalhos" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-primary-600 focus:text-primary-600"> Trabalhos </a>
 
                   <a href="#sectioncontato" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-primary-600 focus:text-primary-600"> Contato </a>
@@ -70,6 +72,8 @@ class header01 extends HTMLElement {
               <a @click="open = !open" href="#sectionsobremim" title="" class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-primary-600"> Sobre </a>
 
               <a @click="open = !open" href="#sectionmetodologia" title="" class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-primary-600"> Metodologia </a>
+
+              <a @click="open = !open" href="#sectionhabilidades" title="" class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-primary-600"> Habilidades </a>
 
               <a @click="open = !open" href="#sectiontrabalhos" title="" class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-primary-600"> Trabalhos </a>
 

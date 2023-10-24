@@ -32,7 +32,7 @@ class cardtrabalho extends HTMLElement {
         <img
           class="mx-auto h-[24rem] w-full  object-cover object-top transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
           src=${imagem}
-          alt="woman"
+          alt="imagem"
           loading="lazy"
           width="640"
           height="805"
@@ -83,6 +83,49 @@ class cardtrabalho extends HTMLElement {
   }}
   
   customElements.define("card-trabalho", cardtrabalho);
+
+
+
+  class cardhabilidades extends HTMLElement {
+    constructor() {
+      super();
+
+      const imagem = this.getAttribute('imagem')
+      const titulo = this.getAttribute('titulo')
+      const texto = this.getAttribute('texto')
+
+
+  
+      this.innerHTML = `
+
+    
+  <!-- Codigo -->
+  
+ 
+  <div class="w-full max-w-md h-64 px-8 py-10 mt-16 bg-white border rounded-lg hover:drop-shadow-lg group hover:scale-105">
+
+    <span class="flex justify-center -mt-16 group-hover:scale-110 group-hover:-translate-y-2 ">
+        <img class="object-contain p-2 w-20 h-20 border-2 bg-white group-hover:border-violet-600 rounded-full" alt="avatar" src="${imagem}">
+    </span>
+
+    <h2 class="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">${titulo}</h2>
+
+    <p class="mt-2 text-sm text-gray-600 dark:text-gray-200">${texto}</p>
+
+
+</div>
+  
+            
+            
+  <!-- Codigo -->
+          
+  
+        `;
+
+
+  }}
+  
+  customElements.define("card-habilidades", cardhabilidades);
 
 
 
