@@ -465,7 +465,7 @@ class sectiontrabalhos extends HTMLElement {
 
             <card-habilidades 
 
-            imagem = "https://o.remove.bg/downloads/305ddcfc-21dc-4f94-bca6-005d271191bc/image-removebg-preview.png"
+            imagem = "https://i.ibb.co/hmGCWhT/image.png"
             titulo = "Firebase"
             texto  = "Utilizo o Firebase para criar experiências interativas e dinâmicas, garantindo a segurança dos dados e uma integração perfeita com aplicativos front-end."
             
