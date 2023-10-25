@@ -465,6 +465,15 @@ class sectiontrabalhos extends HTMLElement {
 
             <card-habilidades 
 
+            imagem = "https://o.remove.bg/downloads/305ddcfc-21dc-4f94-bca6-005d271191bc/image-removebg-preview.png"
+            titulo = "Firebase"
+            texto  = "Utilizo o Firebase para criar experiências interativas e dinâmicas, garantindo a segurança dos dados e uma integração perfeita com aplicativos front-end."
+            
+            class="swiper-slide">
+            </card-habilidades>
+
+            <card-habilidades 
+
             imagem = "https://i.ibb.co/G0QLjjF/image.png"
             titulo = "Web Design"
             texto  = "Minhas habilidades em web design envolvem a criação de interfaces visualmente atraentes e intuitivas. Foco na usabilidade e na harmonia visual para proporcionar experiências de usuário envolventes."
@@ -498,6 +507,8 @@ class sectiontrabalhos extends HTMLElement {
             
             class="swiper-slide">
             </card-habilidades>
+
+            
             
         </div>
 
