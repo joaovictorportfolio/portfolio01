@@ -258,6 +258,21 @@ class sectiontrabalhos extends HTMLElement {
 
         <card-trabalho 
 
+        imagem = "https://i.ibb.co/kmb5NmK/image.png"
+        categoria="Front End"
+        titulo = "Sistema de gerenciamento de finanças"
+        texto = "Este projeto envolve a criação de um sistema para registrar, gerenciar e visualizar suas despesas e receitas."
+
+        item03 = "https://github.com/joaovictorportfolio/CashWeb"
+
+        link = "https://joaovictorportfolio.github.io/CashWeb/"
+
+
+        class="swiper-slide"
+        ></card-trabalho>
+
+        <card-trabalho 
+
         imagem = "https://i.ibb.co/CVxvR8Z/Group-431.png"
         categoria="Front End"
         titulo = "E-commerce de alimentos orgânicos"
