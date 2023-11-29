@@ -462,6 +462,15 @@ class sectiontrabalhos extends HTMLElement {
 
             <card-habilidades 
 
+            imagem = "https://i.ibb.co/zZNmGmm/image.png"
+            titulo = "React"
+            texto  = "Tenho experiência significativa na construção de interfaces interativas e responsivas utilizando o framework React JS. Minha familiaridade com React me permite criar componentes reutilizáveis e escaláveis, resultando em interfaces dinâmicas e de alta performance."
+            
+            class="swiper-slide">
+            </card-habilidades>
+
+            <card-habilidades 
+
             imagem = "https://i.ibb.co/cc1HM2t/image.png"
             titulo = "Framework CSS - Tailwind"
             texto  = "Sou proficiente no uso do framework CSS Tailwind, que acelera o desenvolvimento front-end. Com o Tailwind, posso criar interfaces atraentes e altamente responsivas de maneira eficiente."
