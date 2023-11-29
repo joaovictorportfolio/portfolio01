@@ -64,7 +64,7 @@ class hero01 extends HTMLElement {
                 <img class=" object-contain w-auto mx-auto h-24 floating" src="https://i.ibb.co/hWdVM1H/image.png" alt="" />
             </span>
             <span class=" absolute left-10 top-5 z-10">
-                <img class="object-contain w-auto mx-auto h-16 max-lg:h-12 floating" src="https://i.ibb.co/QPB6LcH/image.png" alt="" />
+                <img class="object-contain w-auto mx-auto h-16 max-lg:h-12 floating" src="https://i.ibb.co/zZNmGmm/image.png" alt="" />
             </span>
             <span class=" absolute right-10 top-64 z-10">
                 <img class="object-contain w-auto mx-auto h-16 max-lg:h-12 floating" src="https://i.ibb.co/rcHwjRf/image.png" alt="" />
